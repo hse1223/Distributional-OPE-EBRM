@@ -5,13 +5,16 @@ In total, this contains three separate simulations.
 ## Simulation-1: Non-completeness (Section 5.2)
 - We have designed a tabular setting that does not satisfy completeness assumption.
 - We compared this with FLE (and QRTD).
+- We used R.
 
 ## Simulation-2: OpenAI-gym (Section 5.1)
 - We have tried three different games (acrobot, cartpole, mountaincar), all of which use 100 samples.
 - We compared EBRM with two different deep neural network based methods, QRDQN and MMDQN.
+- We used Python.
 
 ## Simulation-3: Cartpole (Appendix D.2.2)
 - Among the OpenAI-gym games, we did more intense simulations on cartpole, which seems to best satisfy realizability assumption.
 - We have compared with QRDQN and MMDQN, based on more various sample sizes and also trying a larger neural network.
+- We used Python.
 
 
