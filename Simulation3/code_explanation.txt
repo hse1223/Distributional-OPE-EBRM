@@ -1,0 +1,15 @@
+Order of running codes
+1.py: learn optimal policy 
+- We recommend not to run 1.py, since it will alter the learned model.
+- This contains randomness, which we did not control with seed.
+2-1.py: obtain MC return approximation (marginal).
+2-2.py: visualize the return distribution.
+cmd_simulations.bat (3-1.py, 3-2.py, 3-3.py): run simulations with different sample sizes (from 100 to 1000)
+4_2.py: Plot and tables.
+
+About env.seed() before env.reset()
+- Sampling from inital state distribuiton: Put env.seed(seed) in front.
+- Reaching the terminal state: Put env.seed(1) so that it proceeds to the fixed state.
+
+
+
