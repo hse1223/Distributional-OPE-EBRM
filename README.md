@@ -13,12 +13,14 @@ In total, this contains three separate simulations.
 - We compared EBRM with two different deep neural network based methods, QRDQN and MMDQN.
 - We used Python.
 - We included all the simulation results in the directory. You can delete those if you want to start by yourself.
-
+- Refer to code_explanation.txt before you run it.
 
 ## Simulation-3: Cartpole (Appendix D.2.2)
 - Among the OpenAI-gym games, we did more intense simulations on cartpole, which seems to best satisfy realizability assumption.
 - We have compared with QRDQN and MMDQN, based on more various sample sizes and also trying a larger neural network.
 - We used Python.
 - We did not include the simulation results this time, so that the users could try for themselves.
+- Refer to code_explanation.txt before you run it.
 
-
+## Python version
+- For Simulations 2 and 3, We used Python version 3.9.13, and specified the libraries in requirements.txt.
