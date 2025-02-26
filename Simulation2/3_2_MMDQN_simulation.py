@@ -1,4 +1,4 @@
-seedvec=[i for i in range(11,101)] 
+seedvec=[i for i in range(1,101)] 
 a=1221423; b=1242351
 
 game="acrobot"
